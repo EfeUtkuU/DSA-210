@@ -1,10 +1,10 @@
 # Predicting Sleep Quality
 
 ## Project Overview
-The purpose of this study is to use regression models to investigate the association between different lifestyle factors and sleep quality. We will examine the effects of behaviors such as exercise, screen time, and caffeine consumption on sleep length and efficiency by gathering and evaluating individual sleep data.  
+The purpose of this study is to use regression models to investigate the association between different lifestyle factors and sleep quality. I will examine the effects of behaviors such as exercise, screen time, and caffeine consumption on sleep length and efficiency by gathering and evaluating, my individual sleep data.  
 
 ## Motivation
-Sleeping plays a huge role in a person's living. Its effects range from doing basic daily chores and studying for important exams. Therefore it researching the keen details of sleeping is paramount. With this project, I will be able to enrich my sleeping quality, as well as increase my quality of life. 
+Sleeping plays a huge role in a person's living. Its effects range from doing basic daily chores and studying for important exams. Therefore researching the keen details of sleeping is paramount. With this project, I will be able to enrich my sleeping quality, as well as increase my quality of life. 
 
 ## Goals  
 - Examine the main elements influencing the quality of sleep.  
