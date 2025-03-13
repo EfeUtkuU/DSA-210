@@ -1,37 +1,55 @@
-# Predicting Sleep Quality
+# Car Tire Pressure and Weather 
 
-## Project Overview
-The purpose of this study is to use regression models to investigate the association between different lifestyle factors and sleep quality. I will examine the effects of behaviors such as exercise, screen time, and caffeine consumption on sleep length and efficiency by gathering and evaluating, my individual sleep data.  
+## Overview of the Project  
+This project looks into the connection between tire pressure and weather. My objective is to use regression models to predict changes in tire pressure while accounting for measurable climate and driving-related factors such as temperature, humidity, altitude, and recent driving distance.  
 
 ## Motivation
-Sleeping plays a huge role in a person's living. Its effects range from doing basic daily chores and studying for important exams. Therefore researching the keen details of sleeping is paramount. With this project, I will be able to enrich my sleeping quality, as well as increase my quality of life. 
+As a person who drives daily to school and other places, I've intended to make use of the time I spend in traveling with my car. With this data, I will be able to see how the tires deprecates through time, including several outer factors.
 
-## Goals  
-- Examine the main elements influencing the quality of sleep.  
-- Predict sleep efficiency using regression models based on data that has been gathered.  
-- Determine possible routines that can enhance sleep quality.  
+## Objectives  
+- Analyze how different weather patterns affect the tire pressure of a car.
+- Identify any potential patterns in pressure loss and suggest better maintenance practices.  
 
-## Information Gathering  
-Self-tracking will be used to manually gather the dataset. The following variables will be recorded every day:    
+## Information Collection  
+The data will be collected manually and will be formed of daily tire pressure readings as well as environmental and vehicle-related factors.  
 
-| Variable            | Description |
-|---------------------|-------------|
-| `sleep_duration`   | Total sleep time (hours) |
-| `caffeine_intake`  | Daily Caffeine consumption (mg) |
-| `screen_time`      | Screen exposure before bed (minutes) |
-| `exercise_minutes` | Total exercise duration (minutes) |
-| `stress_level`     | Daily stress rating (scale: 1-10) |
-| `sleep_quality`    | Subjective sleep rating (scale: 1-10) |  
 
-## Approach  
- 1. **Data Collection**: The variables mentioned above are logged every day.  
- 2. **Data Analysis**: Verifying trends and relationships between independent variables and sleep quality.  
- 3. **Models**:  
-    - **Multiple Linear Regression**: Forecast the quality of your sleep by using your daily routine.  
-    - If non-linear correlations are discovered, use **Polynomial Regression**.  
- 4. **Evaluation**: Applying residual analysis, R2 (Coefficient), and RMSE (Root Mean Squared Error).  
- 5. **Interpretation**: Determining the main elements that have a major impact on sleep.  
+| Variable | Description |
+|----------|-------------|
+| `tire_pressure` | Measured tire pressure (PSI) |
+| `temperature` | Outside temperature (°C) |
+| `humidity` | Humidity level (%) |
+| `altitude` | Elevation above sea level (meters) |
+| `car_load_weight` | Approximate weight of passengers/cargo (kg) |
+| `driving_distance` | Distance driven before measurement (km) |
+| `tire_age` | Time since the tire was last replaced (months) |
+| `tire_brand` | Brand and model of the tire |
+| `days_since_inflation` | Days since last inflation check |
+| `weather_conditions` | Rainy, Dry, Snowy, Windy |
+| `surface_type` | Last road driven on (Asphalt, Gravel, Dirt) |
 
-## Anticipated Results: 
-- An examination of the ways in which certain behaviors of a person impact the quality of sleep.  
-- Advice about changing one's lifestyle to improve sleep quality or improving one's sleeping quality to enhance living.  
+NOTE: Used data types might differ preciding in the project.
+
+### **Data Sources** 
+ **Pressure Data**: Tesla's tire pressure calculator will be used to measure the tire pressure.  
+ **Weather Data**: Will be btained through an APIs or mobile weather data apps.  
+ **Altitude Data**: Will be obtained by using elevation data from Google Maps or GPS.  
+ **Car Load & Distance**: Will be approximated using driving logs of Tesla.  
+
+ ---
+
+ ## Approach  
+ 1. **Data Collection**: Record tire pressure and environmental information every day.  
+ 2. **Exploratory Data Analysis (EDA)**: Verify the relationships between tire pressure and meteorological conditions.  
+    Recognize changes by season or time of day.  
+ 3. In order to forecast tire pressure depending on meteorological circumstances, **Regression Modeling** uses **Multiple Linear Regression**.  
+    In the event that relationships are non-linear, use polynomial regression.  
+ 3. **Time Series Regression**: In the event that trends in pressure loss over time are noticed.  
+ 4. **Model Evaluation**: To evaluate accuracy, use residual analysis, RMSE, and R2 score.  
+
+---
+
+## Anticipation  
+A regression model capable of predicting variations in tire pressure awareness of how weather and driving habits impact tire pressure.  
+
+---
