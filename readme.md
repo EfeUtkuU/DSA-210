@@ -22,9 +22,6 @@ The data will be collected manually and will be formed of daily tire pressure re
 | `altitude` | Elevation above sea level (meters) |
 | `car_load_weight` | Approximate weight of passengers/cargo (kg) |
 | `driving_distance` | Distance driven before measurement (km) |
-| `tire_age` | Time since the tire was last replaced (months) |
-| `tire_brand` | Brand and model of the tire |
-| `days_since_inflation` | Days since last inflation check |
 | `weather_conditions` | Rainy, Dry, Snowy, Windy |
 | `surface_type` | Last road driven on (Asphalt, Gravel, Dirt) |
 
