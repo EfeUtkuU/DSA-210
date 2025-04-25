@@ -18,12 +18,10 @@ The data will be collected manually and will be formed of daily tire pressure re
 |----------|-------------|
 | `tire_pressure` | Measured tire pressure (PSI) |
 | `temperature` | Outside temperature (°C) |
-| `humidity` | Humidity level (%) |
 | `altitude` | Elevation above sea level (meters) |
 | `car_load_weight` | Approximate weight of passengers/cargo (kg) |
 | `driving_distance` | Distance driven before measurement (km) |
 | `weather_conditions` | Rainy, Dry, Snowy, Windy |
-| `surface_type` | Last road driven on (Asphalt, Gravel, Dirt) |
 
 NOTE: Used data types might differ preciding in the project.
 
