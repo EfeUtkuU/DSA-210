@@ -64,7 +64,7 @@ A regression model capable of predicting variations in tire pressure awareness o
 The core analyses performed in this project are univariate, bivariate, and regression analysis with thorough model evaluation. Categorical, multivariate, and trend analyses can be further applied as the dataset grows or more variables are included.
 
 
-## Analysis Summary & Results _(Added Section)_
+## Analysis Summary & Results
 
 ### Correlation Findings
 
